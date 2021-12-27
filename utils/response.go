@@ -2,8 +2,9 @@ package utils
 
 import (
 	"encoding/json"
-	T "gsu-web/types"
 	"net/http"
+
+	T "github.com/komefumi/gsu-web/types"
 )
 
 func MakeResponse(response T.StandardResponse, w http.ResponseWriter) error {

@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	T "gsu-web/types"
 	"io/ioutil"
 	"net/http"
+
+	T "github.com/komefumi/gsu-web/types"
 )
 
 func StringIsOfLength(candidate string, min uint, max uint) error {
